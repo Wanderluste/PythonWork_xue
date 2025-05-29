@@ -9,7 +9,7 @@ __pycache__/
 .venv/
 
 # PyTorch model files
-*.pth
+#*.pth
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
