@@ -1,0 +1,31 @@
+# created by virtualenv automatically
+# 忽略 Python 缓存文件
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+
+# PyTorch model files
+*.pth
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+
+# Data (optional,可根据你项目决定)
+data/
+*.csv
+*.zip
+
+# PyCharm project files
+.idea/
+
+# 忽略大数据集和压缩包
+dataset/
+*.tar.gz
+
+
+
