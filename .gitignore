@@ -4,41 +4,20 @@ __pycache__/
 *.so
 
 # 虚拟环境与编译产物
-.venv/
-build/
-dist/
-*.egg-info/
+*.venv/
 
-# 深度学习相关
-*.pth
-*.pt
-*.pt_temp
-logs/
-runs/
-tensorboard/
+# 深度学习相关，model文件的训练模型
+.pth
 
-# Jupyter 与 IDE
-.ipynb_checkpoints/
-.idea/
-.vscode/
+# Jupyter
+*.ipynb_checkpoints/
 
-# 数据与缓存
-data/
+# 数据与缓存，CIFAR-10
 dataset/
-*.csv
-*.zip
 *.tar.gz
-augmented_data/
-data_cache/
-*.png.cache
-*.jpg.cache
 
-# 系统与临时文件
-.DS_Store
-Thumbs.db
-temp/
-*.tmp
+#model1为改进模型，model为原模型
+src/
 
-# 可选保留（手动管理）
-# configs/
-# requirements.txt
+# 可选保留（手动管理），环境参数
+requirements.txt
