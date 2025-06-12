@@ -27,9 +27,13 @@ src/model.py：定义基础 CNN 模型（卷积层 + 全连接层），适配 CI
 src/model1.py：改进CNN模型，层数变多  
 src/train.py：CNN 模型训练代码，具体参数可以设置  
 src/train1.py：改进CNN 模型训练代码，具体参数可以设置  
-src/test.py：CNN 模型测试代码，测试图片文件可以切换
-src/test1.py：改进CNN 模型测试代码，测试图片文件可以切换
-ps：resnet代码没有在论文中使用！
+src/test.py：CNN 模型测试代码，测试图片文件可以切换    
+src/test1.py：改进CNN 模型测试代码，测试图片文件可以切换    
+ps：resnet代码没有在论文中使用！    
+
+最后更新：2025 年 6 月 12 日    
+维护者：Xue    
+反馈渠道：联系 ahuangxue8@gmail.com
 
 
 
